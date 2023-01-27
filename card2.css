@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    /*margin:0;*/
+}
+    .container{
+    background-image: linear-gradient(blue,red);
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    /* padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem; */
+    color: white;
+
+    padding: 1rem;
+    box-shadow: 3px 5px gray;
+}
+.logo{
+    text-align: center;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+    /* border-radius: 50%; */
+    /* border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem; */
+    border-radius: 5rem ;
+
+    /* border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: red; */
+
+    border: none red;
+
+}
+.card-text{
+    text-align: center;
+}
+p{
+    font-size: 0.8rem;
+
+}
+.card-title{
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.colum{
+  float: left;
+  height: 30; 
+  width: 30%;
+  padding: 6%; 
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.facebook{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.facebook:hover{
+    background-color: blue;
+}
+
+.twitter{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.twitter:hover{
+    background-color: blue;
+}
+.tikktok{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.tikktok:hover{
+    background-color:blue ;
+}
+.Instagram{
+    background-color:white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.Instagram:hover{
+background-color:white;
+}
+.mine{
+    background-color: blue;
+    border-radius: 50%;
+    border:0.5rem solid white 
+}
+
+.btn{
+    text-align:center;
+}
+button{
+    border-radius: 10px;
+    border: 2px solid aqua;
+    background-color: burlywood;
+}
+button:hover{
+    background-color: aqua;
+    transition: 5s;
+
+}
