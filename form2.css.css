@@ -1,0 +1,19 @@
+.container{
+    height: auto;
+    width: 32;
+    background-color: aqua;
+    padding: 0rem;
+    text-align: center;
+    box-shadow: 1px 2px bisque;
+}
+.box{
+   height: 20px; 
+   margin: auto;
+   width: 10rem;
+   background-color: aliceblue;
+   border: 1px solid rgb(red, 0, 0);
+   padding: 15px;
+}
+.button{
+    background-color: brown;
+}
