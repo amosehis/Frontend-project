@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(40,60,50);
+    border-radius: 40px;
+    text-decoration: none;
+    align-items: center;
+    position: fixed;
+    width:92% ;
+    
+}
+li{
+    display: inline;
+    padding: 14px;
+}
+li a{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida
+     Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li a:hover{
+    color: rgb(254,150,120);
+}
+h3{
+    color: rgb(254,150,120);
+    font-size: 1.8rem;
+}
+.navbox{
+    padding: 20px, 40px;
+}
+header{
+    background: url(office.jpg);
+    height: 200vh;
+    background-size: cover;
+}
+
+     
